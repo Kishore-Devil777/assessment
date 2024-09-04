@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   height: 10vh;
+    background-color: chartreuse;
+
+}
+h1{
+ font-style:initial;
+}
+.navbar{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 1em;
+}
+.container{
+    display: grid;
+    grid-template-rows:10vh 50vh 35vh 5vh;
+ 
+}
+.main-content{
+ margin-top: 25px;
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    font-display:initial;
+
+}
+.grid-item{
+ background-color: #f4f4f4;
+   border: solid px;
+   height: 360px;
+   width: 320px;
+   margin: 20px;
+}
+.song-image{    
+
+ padding-left: 35px;
+ padding-top: 20px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.additional-content{
+ background-color:#c9bdaf; 
+ border-radius: 0px; 
+ margin: 10px;
+ height: 10ch;
+ padding: 30px;
+}
+.additional-content1{
+ display: grid;
+ grid-template-rows: 30%;
+    border-radius: 11px;
+    margin: 10px;
+  padding: 10px;
+
+}
+.content-grid{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   background-color: #ebddcd;
+   height: 80px;
+   padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: 5vh;
+   
+}
